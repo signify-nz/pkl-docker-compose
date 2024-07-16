@@ -1,0 +1,9 @@
+module dockercompose.service.Port
+
+import "../util/Validators.pkl"
+
+host: Validators.ValidPort
+
+container: Validators.ValidPort
+
+protocol: "tcp"|"udp" = "tcp"
