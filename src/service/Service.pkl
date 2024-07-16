@@ -1,9 +1,12 @@
 module dockercompose.service.Service
 
+import "./Network.pkl"
+
 import "../types/Restart.pkl"
 
 import "./Port.pkl"
 
+networks: Listing<String>
 
 restart: Restart.Restart = "no"
 
