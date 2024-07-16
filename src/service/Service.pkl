@@ -1,5 +1,10 @@
 module dockercompose.service.Service
 
+import "../types/Restart.pkl"
+
 import "./Port.pkl"
+
+
+restart: Restart.Restart = "no"
 
 ports: Listing<Port>?

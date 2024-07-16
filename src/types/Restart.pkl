@@ -1,0 +1,3 @@
+module dockercompose.types.Restart
+
+typealias Restart = "no"|"always"|"on-failure"|"unless-stopped"
