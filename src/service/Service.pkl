@@ -2,10 +2,9 @@ module dockercompose.service.Service
 
 import "./Build.pkl"
 import "./Network.pkl"
-
 import "../types/Restart.pkl"
-
 import "./Port.pkl"
+import "./Volume.pkl"
 
 build: Build?
 
@@ -14,3 +13,5 @@ networks: Listing<String>
 restart: Restart.Restart = "no"
 
 ports: Listing<Port>?
+
+volumes: Listing<Volume>?
