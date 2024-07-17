@@ -10,6 +10,8 @@ build: Build?
 
 environment: Mapping<String,String>?
 
+image: String?
+
 links: Listing<String>?
 
 networks: Listing<String>
