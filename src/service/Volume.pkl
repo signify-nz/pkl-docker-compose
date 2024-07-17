@@ -1,0 +1,7 @@
+module dockercompose.service.Volume
+
+type: "volume"|"bind"|"tmpfs"|"npipe"|"cluster" = "volume"
+
+source: String
+
+target: String

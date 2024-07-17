@@ -1,0 +1,3 @@
+module dockercompose.service.Network
+
+aliases: Listing<String>?
