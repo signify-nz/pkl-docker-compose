@@ -1,0 +1,9 @@
+module dockercompose.network.Network
+
+import "./Types.pkl"
+
+driver: Types.Driver?
+
+`external`: Boolean?
+
+name: String?

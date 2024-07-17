@@ -1,0 +1,3 @@
+module dockercompose.util.Validators
+
+typealias ValidPort = Int(isBetween(0, 65535))

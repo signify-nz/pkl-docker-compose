@@ -1,0 +1,3 @@
+module dockercompose.network.Types
+
+typealias Driver = "bridge"|"host"|"overlay"|"ipvlan"|"macvlan"|"none"

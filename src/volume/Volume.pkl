@@ -1,0 +1,9 @@
+module dockercompose.volume.Volume
+
+import "./Types.pkl"
+
+driver: Types.Driver?
+
+`external`: Boolean?
+
+name: String?
