@@ -18,4 +18,6 @@ restart: Restart.Restart = "no"
 
 ports: Listing<Port>?
 
+user: String?
+
 volumes: Listing<Volume>?
