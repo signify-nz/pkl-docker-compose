@@ -1,0 +1,3 @@
+module dockercompose.volume.Types
+
+typealias Driver = "overlay2"|"fuse-overlayfs"|"btrfs"|"zfs"|"vfs"
