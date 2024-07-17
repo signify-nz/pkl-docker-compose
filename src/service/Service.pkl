@@ -8,7 +8,9 @@ import "./Volume.pkl"
 
 build: Build?
 
-environment: Mapping<String,String>?
+environment: Mapping<String, String>?
+
+extra_hosts: Mapping<String, String>?
 
 image: String?
 
