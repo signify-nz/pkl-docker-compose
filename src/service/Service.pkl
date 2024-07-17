@@ -10,6 +10,8 @@ build: Build?
 
 environment: Mapping<String,String>?
 
+links: Listing<String>?
+
 networks: Listing<String>
 
 restart: Restart.Restart = "no"
