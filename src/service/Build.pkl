@@ -1,0 +1,9 @@
+module dockercompose.service.Build
+
+context: String?
+
+dockerfile: String?
+
+dockerfile_inline: String?
+
+args: Mapping<String,String>?
